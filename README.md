@@ -16,7 +16,7 @@
     - Packaging: Jar
     - Java Version: 17
     - Dependencies: elige Spring Web
-------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 * Ejemplo de prueba, Dentro de src/main/java/com/example/demo tendrás la clase principal que Eclipse crea. Modifícala así:
  
  ` @SpringBootApplication
@@ -34,4 +34,9 @@ class HolaController {
     }
 } ´
 
-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+# ejecutar aplicacion: 
+ - en el archivo principal  -> selecionar Run AS -> Spring Boot App
+ - En la consola verás que levanta un servidor en http://localhost:8080/hola
+ 
+-------------------------------------------------------------------------------------------------
